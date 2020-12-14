@@ -1,0 +1,8 @@
+server:
+  url: ":1234"
+database:
+  feederdb:
+    url: "postgres://postgres:password@localhost:5444/feederdb?sslmode=disable"
+    dialect: postgres
+    poolsizemin: 10
+    poolsizemax: 20
